@@ -32,7 +32,7 @@ sudo python3 monitor.py
 
 Example:
 ```bash
-sudo python3 live_port_monitor.py --full-ips --refresh 5
+sudo python3 monitor.py --full-ips --refresh 5
 ```
 
 ## Requirements
