@@ -20,3 +20,16 @@ Ensure you have Python installed, then install the required dependencies:
 ```bash
 pip install scapy rich
 ```
+## Usage
+**Run the script with:**
+```bash
+sudo python3 monitor.py
+```
+
+##Optional Arguments:
+- ```--full-ips``` → Display full source IPs without truncation.
+- ```--refresh <seconds>``` → Set the refresh interval (default: 3 seconds).
+Example:
+```bash
+sudo python3 live_port_monitor.py --full-ips --refresh 5
+```
