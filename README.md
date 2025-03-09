@@ -34,3 +34,7 @@ Example:
 ```bash
 sudo python3 live_port_monitor.py --full-ips --refresh 5
 ```
+
+## Requirements
+- **Python 3.6+**
+- **Dependencies:** ```scapy```**,** ```rich```
